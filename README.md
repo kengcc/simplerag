@@ -4,24 +4,30 @@ Simple chat app using OpenAI API and OLLAMA.
 
 ## Getting started
 
-1. clone the project from 
+1. clone the project from 'https://gitlab.tmrnd.com.my/Project-Sandbox/langchain/simplechat.git'
+
+2. create and set the .env
 ```
-'https://gitlab.tmrnd.com.my/Project-Sandbox/langchain/simplechat.git'
+   OPENAI_API_KEY="sk-***"
+   LANGCHAIN_API_KEY ="lsv2_***"
+   LANGCHAIN_PROJECT ="Project1"
 ```
-2. set the venv for the porject. Python environment
+3. set the venv for the porject. Python environment
 ```
    % python -m venv venv
-   % .\venv\Scripts\activate
 ```
-
-3. install the dependencies within the venv
+4. install the dependencies within the venv
 ```
    % pip install -r requirements.txt
 ```
-
-4. run the application 
+5. run the application 
 ```
    run simple.ipynb either in jupyter notebook or VSC
+```
+
+6. Check the langsmith (LLMOps)
+```
+   https://smith.langchain.com/
 ```
 
 ## Push to master
